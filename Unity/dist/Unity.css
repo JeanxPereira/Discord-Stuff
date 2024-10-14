@@ -383,7 +383,7 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   background-color: transparent;
   /* hide overflow so borders will actually be rounded */
 }
-:root.theme-dark:not(.custom-theme-background) .scroller__89969 {
+:root.theme-dark:not(.custom-theme-background) .scroller_c43953 {
   background: var(--sidebar-background-color, var(--background-secondary));
 }
 
@@ -1884,8 +1884,8 @@ button.bd-button:not(.bd-button-color-transparent):not(.bd-addon-button, .bd-vie
   border: 1px solid var(--brand-experiment);
 }
 
-.profileBadges__1f2ab,
-.badgeList__76720 {
+.profileBadges_f89da9,
+.badgeList_ec3b75 {
   border-radius: var(--unity-border-radius);
 }
 
