@@ -470,7 +470,7 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
 }
 
 /* GUILD LIST */
-nav.wrapper__216eb {
+nav.wrapper_fea3ef {
   border-radius: calc(var(--unity-border-radius) * var(--enable-gaps));
   border: calc(var(--guilds-border-width, 0) * var(--enable-gaps)) solid var(--guilds-border-color, transparent);
   margin: calc(var(--enable-gaps) * var(--guilds-top-bottom-inset, calc(var(--unity-inset) * 2))) 0 calc(var(--guilds-top-bottom-inset, calc(var(--unity-inset) * 2)) * var(--enable-gaps)) calc(var(--guilds-margin-left, calc(var(--unity-inset) * 2)) * var(--enable-gaps));
@@ -484,14 +484,14 @@ nav.wrapper__216eb {
   -webkit-backdrop-filter: blur(var(--chat-background-blur, 0px));
   backdrop-filter: blur(var(--guilds-background-blur, 0px));
 }
-:root.full-motion nav.wrapper__216eb {
+:root.full-motion nav.wrapper_fea3ef {
   transition: margin 3s cubic-bezier(0.5, 0.25, 0, 1), border-radius 2s cubic-bezier(0.09, 0.675, 0.185, 0.98), opacity 1s cubic-bezier(0.09, 0.675, 0.185, 0.98);
 }
-nav.wrapper__216eb .scroller_de945b {
+nav.wrapper_fea3ef .scroller_de945b {
   background-color: transparent;
   padding-top: 10px;
 }
-.custom-theme-background nav.wrapper__216eb .scroller_de945b {
+.custom-theme-background nav.wrapper_fea3ef .scroller_de945b {
   background: var(--bg-overlay-app-frame, transparent);
   background-blend-mode: normal;
 }
@@ -2161,7 +2161,7 @@ button.bd-button:not(.bd-button-color-transparent):not(.bd-addon-button, .bd-vie
   color: var(--interactive-active);
 }
 
-:is(.platform-osx, [armcord-platform=darwin]) .wrapper__216eb {
+:is(.platform-osx, [armcord-platform=darwin]) .wrapper_fea3ef {
   margin-top: var(--guilds-top-bottom-inset, calc(32px * (var(--enable-gaps) - 1) + 32px));
   padding-top: calc(32px * (1 - var(--enable-gaps)));
 }
