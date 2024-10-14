@@ -363,7 +363,7 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   transform: translateY(-50%);
   transition: height cubic-bezier(0.39, 0.46, 0, 0.98) 350ms, background-color 1.5s ease;
 }
-.sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef .unread__48cf4 {
+.sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef .unread_c10249 {
   display: none;
 }
 .sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef.modeUnreadImportant__35358::before {
@@ -387,35 +387,35 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   background: var(--sidebar-background-color, var(--background-secondary));
 }
 
-[class*=platform] .sidebar_a4d4d9 > nav, [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8,
+[class*=platform] .sidebar_a4d4d9 > nav, [class*=platform] .sidebar_a4d4d9.scrollerBase_c49869,
 [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav,
-[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 {
+[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_c49869 {
   background-color: transparent;
   border: calc(var(--sidebar-border-width, 0) * var(--enable-gaps)) solid var(--sidebar-border-color, transparent);
   border-radius: calc(var(--unity-border-radius) * var(--enable-gaps));
   margin-bottom: calc(var(--unity-inset) * var(--enable-gaps));
 }
-:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9 > nav, :root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8,
+:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9 > nav, :root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.scrollerBase_c49869,
 :root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav,
-:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 {
+:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_c49869 {
   transition: margin-bottom 2s cubic-bezier(0.5, 0.25, 0, 1), border-radius 2s cubic-bezier(0.09, 0.675, 0.185, 0.98), border-width 1s cubic-bezier(0.09, 0.675, 0.185, 0.98);
 }
 
-:root.custom-theme-background [class*=platform] .sidebar_a4d4d9 > nav, :root.custom-theme-background [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8,
+:root.custom-theme-background [class*=platform] .sidebar_a4d4d9 > nav, :root.custom-theme-background [class*=platform] .sidebar_a4d4d9.scrollerBase_c49869,
 :root.custom-theme-background [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav,
-:root.custom-theme-background [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 {
+:root.custom-theme-background [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_c49869 {
   background-blend-mode: normal;
   background: var(--bg-overlay-3, var(--sidebar-background-color, var(--background-secondary)));
 }
 
-[class*=platform] .sidebar_a4d4d9 > nav button.searchBarComponent__8f95f, [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8 button.searchBarComponent__8f95f,
+[class*=platform] .sidebar_a4d4d9 > nav button.searchBarComponent__8f95f, [class*=platform] .sidebar_a4d4d9.scrollerBase_c49869 button.searchBarComponent__8f95f,
 [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav button.searchBarComponent__8f95f,
-[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 button.searchBarComponent__8f95f {
+[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_c49869 button.searchBarComponent__8f95f {
   border-radius: calc(var(--unity-border-radius) - 10px);
 }
-[class*=platform] .sidebar_a4d4d9 > nav::after, [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8::after,
+[class*=platform] .sidebar_a4d4d9 > nav::after, [class*=platform] .sidebar_a4d4d9.scrollerBase_c49869::after,
 [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav::after,
-[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8::after {
+[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_c49869::after {
   -webkit-backdrop-filter: blur(var(--sidebar-background-blur));
           backdrop-filter: blur(var(--sidebar-background-blur));
   background-color: var(--sidebar-background-color, var(--background-secondary));
@@ -1061,7 +1061,7 @@ main:not(.container_ec90d4) .jumpToPresentBar__69174 {
   border-bottom: var(--border-width) solid var(--interactive-hover);
 }
 
-.menu__088f7 [role=menuitemradio]:not(:hover) svg.icon__0bfbf > path:has(+ .radioSelection__41d1e) {
+.menu__088f7 [role=menuitemradio]:not(:hover) svg.icon_d8bfb3 > path:has(+ .radioSelection__41d1e) {
   color: var(--brand-experiment);
 }
 .menu__088f7:not(#account) {
