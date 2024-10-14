@@ -487,16 +487,16 @@ nav.wrapper_fea3ef {
 :root.full-motion nav.wrapper_fea3ef {
   transition: margin 3s cubic-bezier(0.5, 0.25, 0, 1), border-radius 2s cubic-bezier(0.09, 0.675, 0.185, 0.98), opacity 1s cubic-bezier(0.09, 0.675, 0.185, 0.98);
 }
-nav.wrapper_fea3ef .scroller_de945b {
+nav.wrapper_fea3ef .scroller_fea3ef {
   background-color: transparent;
   padding-top: 10px;
 }
-.custom-theme-background nav.wrapper_fea3ef .scroller_de945b {
+.custom-theme-background nav.wrapper_fea3ef .scroller_fea3ef {
   background: var(--bg-overlay-app-frame, transparent);
   background-blend-mode: normal;
 }
 
-.container__694a1 {
+.container_a4d4d9 {
   border: var(--threads-border-width, 0) solid var(--threads-border-color, transparent);
   border-radius: calc(var(--unity-border-radius) * var(--enable-gaps));
   opacity: var(--unity-opacity, 1);
@@ -506,16 +506,16 @@ nav.wrapper_fea3ef .scroller_de945b {
           backdrop-filter: blur(var(--threads-blur-radius));
   background: var(--threads-background-color, var(--background-primary));
 }
-.container__694a1 + .resizeHandle_cc9d34 {
+.container_a4d4d9 + .resizeHandle_cc9d34 {
   margin: auto calc(var(--unity-inset) / 2);
   height: 80vh;
   border-radius: var(--radius-round);
   z-index: 3;
 }
-.container__68e43 {
+.content_a7d72e {
   border-top: none;
 }
-.container__68e43 + .divider__4df9f {
+.content_a7d72e + .divider__4df9f {
   width: 95%;
   margin: auto;
   border-radius: var(--radius-round);
@@ -983,7 +983,7 @@ nav.wrapper_fea3ef .scroller_de945b {
 .base_c0676e .channelTextArea_c2094b,
 .base_c0676e .header__119bc,
 .base_c0676e .wrapper__6b7d8,
-.base_c0676e .container__68e43 {
+.base_c0676e .content_a7d72e {
   background: transparent;
   /* Set backgrounds to transparent so we can see wrapper's background */
 }
