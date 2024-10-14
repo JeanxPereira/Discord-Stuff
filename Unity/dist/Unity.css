@@ -325,10 +325,10 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
 }
 
 /* SIDEBAR */
-.sidebar_a4d4d9 nav .bar__004d9 {
+.sidebar_a4d4d9 nav .bar_c10249 {
   --backdrop-blur: var(--unity-floating-blur-radius);
 }
-.sidebar_a4d4d9 nav .bar__004d9::after {
+.sidebar_a4d4d9 nav .bar_c10249::after {
   -webkit-backdrop-filter: blur(var(--backdrop-blur));
           backdrop-filter: blur(var(--backdrop-blur));
   content: "";
@@ -343,15 +343,15 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
 .sidebar_a4d4d9 nav ul li {
   border-radius: calc(var(--unity-border-radius) - 8px);
 }
-.sidebar_a4d4d9 nav ul li:hover[class] .wrapper__612a5.modeUnreadImportant__35358::before {
+.sidebar_a4d4d9 nav ul li:hover[class] .wrapper_fea3ef.modeUnreadImportant__35358::before {
   height: 20px;
 }
-.base_c0676e:has(.newMessagesBar__8b272) .sidebar_a4d4d9 nav ul li[class] .wrapper__612a5.modeSelected__473f1::before {
+.base_c0676e:has(.newMessagesBar__8b272) .sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef.modeSelected__473f1::before {
   height: 20px;
   background-color: var(--interactive-active);
   transition: height cubic-bezier(0.39, 0.46, 0, 0.98) 850ms, background-color 1.5s ease;
 }
-.sidebar_a4d4d9 nav ul li[class] .wrapper__612a5::before {
+.sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef::before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -363,10 +363,10 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   transform: translateY(-50%);
   transition: height cubic-bezier(0.39, 0.46, 0, 0.98) 350ms, background-color 1.5s ease;
 }
-.sidebar_a4d4d9 nav ul li[class] .wrapper__612a5 .unread__48cf4 {
+.sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef .unread__48cf4 {
   display: none;
 }
-.sidebar_a4d4d9 nav ul li[class] .wrapper__612a5.modeUnreadImportant__35358::before {
+.sidebar_a4d4d9 nav ul li[class] .wrapper_fea3ef.modeUnreadImportant__35358::before {
   background-color: var(--interactive-active);
   height: 10px;
 }
@@ -387,35 +387,35 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   background: var(--sidebar-background-color, var(--background-secondary));
 }
 
-[class*=platform] .sidebar_a4d4d9 > nav, [class*=platform] .sidebar_a4d4d9.scrollerBase-_bVAAt,
+[class*=platform] .sidebar_a4d4d9 > nav, [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8,
 [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav,
-[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase-_bVAAt {
+[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 {
   background-color: transparent;
   border: calc(var(--sidebar-border-width, 0) * var(--enable-gaps)) solid var(--sidebar-border-color, transparent);
   border-radius: calc(var(--unity-border-radius) * var(--enable-gaps));
   margin-bottom: calc(var(--unity-inset) * var(--enable-gaps));
 }
-:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9 > nav, :root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.scrollerBase-_bVAAt,
+:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9 > nav, :root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8,
 :root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav,
-:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase-_bVAAt {
+:root[class*=full-motion] [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 {
   transition: margin-bottom 2s cubic-bezier(0.5, 0.25, 0, 1), border-radius 2s cubic-bezier(0.09, 0.675, 0.185, 0.98), border-width 1s cubic-bezier(0.09, 0.675, 0.185, 0.98);
 }
 
-:root.custom-theme-background [class*=platform] .sidebar_a4d4d9 > nav, :root.custom-theme-background [class*=platform] .sidebar_a4d4d9.scrollerBase-_bVAAt,
+:root.custom-theme-background [class*=platform] .sidebar_a4d4d9 > nav, :root.custom-theme-background [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8,
 :root.custom-theme-background [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav,
-:root.custom-theme-background [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase-_bVAAt {
+:root.custom-theme-background [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 {
   background-blend-mode: normal;
   background: var(--bg-overlay-3, var(--sidebar-background-color, var(--background-secondary)));
 }
 
-[class*=platform] .sidebar_a4d4d9 > nav button.searchBarComponent__8f95f, [class*=platform] .sidebar_a4d4d9.scrollerBase-_bVAAt button.searchBarComponent__8f95f,
+[class*=platform] .sidebar_a4d4d9 > nav button.searchBarComponent__8f95f, [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8 button.searchBarComponent__8f95f,
 [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav button.searchBarComponent__8f95f,
-[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase-_bVAAt button.searchBarComponent__8f95f {
+[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8 button.searchBarComponent__8f95f {
   border-radius: calc(var(--unity-border-radius) - 10px);
 }
-[class*=platform] .sidebar_a4d4d9 > nav::after, [class*=platform] .sidebar_a4d4d9.scrollerBase-_bVAAt::after,
+[class*=platform] .sidebar_a4d4d9 > nav::after, [class*=platform] .sidebar_a4d4d9.scrollerBase_eed6a8::after,
 [class*=platform] .sidebar_a4d4d9.hasNotice_cc284c > nav::after,
-[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase-_bVAAt::after {
+[class*=platform] .sidebar_a4d4d9.hasNotice_cc284c.scrollerBase_eed6a8::after {
   -webkit-backdrop-filter: blur(var(--sidebar-background-blur));
           backdrop-filter: blur(var(--sidebar-background-blur));
   background-color: var(--sidebar-background-color, var(--background-secondary));
@@ -432,7 +432,7 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   left: 0;
   border-radius: calc(var(--unity-border-radius) * var(--enable-gaps));
 }
-[class*=platform] .panels__58331 {
+[class*=platform] .panels_a4d4d9 {
   opacity: var(--unity-opacity, 1);
   border: calc(var(--panels-border-width, 0) * var(--enable-gaps)) solid var(--panels-border-color, transparent);
   overflow: hidden;
@@ -446,26 +446,26 @@ body #app-mount .app_b1f720 .app_de4237 .bg__12180 {
   -webkit-backdrop-filter: blur(var(--panels-background-blur));
           backdrop-filter: blur(var(--panels-background-blur));
 }
-[class*=platform] .panels__58331 .avatarWrapper__500a6 {
+[class*=platform] .panels_a4d4d9 .avatarWrapper_b2ca13 {
   border-radius: calc(var(--unity-border-radius) - 8px) 0 0 calc(var(--unity-border-radius) - 8px);
 }
-:root.custom-theme-background [class*=platform] .panels__58331 {
+:root.custom-theme-background [class*=platform] .panels_a4d4d9 {
   background-blend-mode: normal;
   background: var(--background-secondary);
 }
 
-[class*=platform] .panels__58331 .container_debb33 {
+[class*=platform] .panels_a4d4d9 .container_b2ca13 {
   margin-bottom: 0;
   background: none;
 }
-[class*=platform] .panels__58331 .container_e1958d {
+[class*=platform] .panels_a4d4d9 .container_e1958d {
   background: transparent;
 }
-.custom-theme-background [class*=platform] .panels__58331 .container_e1958d {
+.custom-theme-background [class*=platform] .panels_a4d4d9 .container_e1958d {
   background-blend-mode: normal;
   background: var(--bg-overlay-3, var(--background-secondary-alt));
 }
-[class*=platform] :root:not(.custom-theme-background) .container_debb33 {
+[class*=platform] :root:not(.custom-theme-background) .container_b2ca13 {
   background: none;
 }
 
